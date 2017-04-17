@@ -1,9 +1,5 @@
-# FreeCodeCamp Leaderboard Project
+# FreeCodeCamp Leaderboard
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Based on the project at  [freecodecamp.com](https://www.freecodecamp.com/challenges/build-a-camper-leaderboard)
 
-
-```
-> npm install
-> npm start
-```
+See it also at [codepen.io](http://codepen.io/ssheilah/pen/OpYaWr)
