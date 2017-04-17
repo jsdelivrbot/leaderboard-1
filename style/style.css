@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+.container {
+	font-family: 'Open Sans', sans-serif;;
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+}
+h1 {
+	color: #77580c;
+	font-size: 2rem;
+	text-align: center;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+	font-weight: 200;
+	padding: 5px 0 10px 0;
+	margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  letter-spacing: normal;
+  text-transform: none;
+  text-align: left;
+}
+}
+
+.tabs__labels {
+  margin: 0;
+  padding: 0;
+}
+
+.tabs__labels li:first-child {
+  width: 40%;
+}
+
+.tabs__labels li:nth-child(2), .tabs__labels li:nth-child(3) {
+  width: 30%;
+}
+
+.tabs__labels li {
+  display: inline-block;
+  text-align: center;
+}
+
+.tabs__labels li a {
+  padding: 8px 12px;
+  display: block;
+  text-decoration: none;
+  border-bottom: 2px solid #ddd;
+  font-size: .9rem;
+  letter-spacing: normal;
+
+}
+.tabs__labels li a.active {
+  color: #c60c30;
+  border-bottom-color: #c60c30;
+  font-weight: 700;
+}
+.tabs__content {
+  padding: 25px;
+}
+
+table {
+  counter-reset: rowNumber;
+  width: 100%;
+  font-size: 1rem;
+  letter-spacing: normal;
+}
+
+table tr > td:first-child {
+  counter-increment: rowNumber;
+  width: 5%;
+  padding-left: 10px;
+}
+
+table td:nth-child(2) {
+  width: 35%;
+  text-align: left;
+}
+
+table td:nth-child(3), table td:nth-child(4) {
+  width: 30%;
+  text-align: center;
+}
+
+table tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+} 
+
+table tr:nth-child(even) {
+	background-color: #fff;
+}
+
+table tr:nth-child(odd) {
+	background-color: #eff0f1;
+}
+
+table {
+  padding: 5px;
+  border: 0;
+  border-color: transparent;
+}
+
+img {
+  margin: 5px 10px 5px 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+}
+
+a {
+  color: #981e32;
+}
+
+a:hover {
+  color: #c60c30;
+}
