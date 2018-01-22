@@ -1,0 +1,5 @@
+run the bundler with `npm run build` to publish  - see http://tutorialzine.com/2017/04/learn-webpack-in-15-minutes/ for deets
+
+pay attention to leading slashes in links
+
+build script in json package is key
